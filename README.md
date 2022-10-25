@@ -1,7 +1,7 @@
 # C214 - Exercício Sobre Design Patterns
 
 ## Sobre
-Este repositório contém uma classe chamada movie no arquivo movie.js. Esta é reimplementada no arquivo movie_factory_pattern.js seguindo o design pattern factory.
+Este repositório contém uma classe chamada Movie no arquivo movie.js. Esta é reimplementada no arquivo movie_factory_pattern.js seguindo o design pattern factory.
 
 ## Execução
 1. Instale o [Node.js](https://nodejs.org/en/).
