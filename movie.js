@@ -6,19 +6,19 @@ class Movie {
         this._year = year;
     }
 
-    get name() {
+    get getName() {
         return this._name;
     }
 
-    get duration() {
+    get getDuration() {
         return this._duration;
     }
 
-    get actors() {
+    get getActors() {
         return this._actors;
     }
 
-    get year() {
+    get getYear() {
         return this._year;
     }
 }
@@ -26,7 +26,7 @@ class Movie {
 const actors = ['Tom Cruise', 'Miles Teller', 'Jennifer Connelly', 'Jon Hamm', 'Glen Powell', 'Ed Harris', 'Val Kilmer',
     'Lewis Pullman']
 const movie = new Movie('Top Gun: Maverick', 130, actors, 2022)
-console.log('Nome: ' + movie.name)
-console.log('Duração: ' + movie.duration + 'min')
-console.log('Atores: ' + movie.actors)
-console.log('Ano: ' + movie.year)
+console.log('Nome: ' + movie.getName)
+console.log('Duração: ' + movie.getDuration + 'min')
+console.log('Atores: ' + movie.getActors)
+console.log('Ano: ' + movie.getYear)
